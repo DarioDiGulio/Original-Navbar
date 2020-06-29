@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+nav {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: #06b4ec;
+}
+
+nav > button,
+p {
+  width: 25%;
+  background-color: #0c2c53;
+  border: none;
+  color: aliceblue;
+}
+
+button:focus {
+  outline: none;
+}
+
+p {
+  text-align: center;
+  height: 100%;
+}
+
+.bold {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
